@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0049120e-f0ae-404e-92ee-14c75502db86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/ListSortDemo.java" afterDir="false" />
+    <list default="true" id="0049120e-f0ae-404e-92ee-14c75502db86" name="Changes" comment="Collektions Sortieren">
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartTotalItemsComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartUsernameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/StudentListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/StudentNameComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/ArraySortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/ArraySortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/EmployeeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/EmployeeSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/Highscore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/Highscore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/HighscoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/HighscoreDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +45,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListSortDemo">
-    <configuration name="ArraySortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.ArraySortDemo" />
+  <component name="RunManager" selected="Application.StudentListDemo">
+    <configuration name="CartSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.CartSortDemo" />
       <module name="ComperableComparator" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.StudentListDemo" />
+      <module name="ComperableComparator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.ue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentListDemo" />
         <item itemvalue="Application.ListSortDemo" />
-        <item itemvalue="Application.ArraySortDemo" />
-        <item itemvalue="Application.EmployeeSortDemo" />
         <item itemvalue="Application.HighscoreDemo" />
+        <item itemvalue="Application.EmployeeSortDemo" />
+        <item itemvalue="Application.CartSortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +130,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677868711239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Collektions Sortieren">
+      <created>1677872299906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872299906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Collektions Sortieren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collektions Sortieren" />
   </component>
 </project>

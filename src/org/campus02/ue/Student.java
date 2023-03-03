@@ -11,6 +11,18 @@ public class Student implements Comparable<Student> {
         this.lastName = lastName;
     }
 
+    public int getMatrNr() {
+        return matrNr;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
