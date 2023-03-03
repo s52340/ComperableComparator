@@ -2,7 +2,7 @@ package org.campus02.ue;
 
 import java.util.Arrays;
 
-public class EmplyeeSortDemo {
+public class EmployeeSortDemo {
 
     public static void main(String[] args) {
 
@@ -12,8 +12,8 @@ public class EmplyeeSortDemo {
                 new Employee(3, "john", 345.78, "Sales"),
                 new Employee(5, "marie", 345.789, "Marketing")};
 
-
         Arrays.sort(employees);
         System.out.println(Arrays.toString(employees));
+
     }
 }
