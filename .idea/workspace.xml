@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0049120e-f0ae-404e-92ee-14c75502db86" name="Changes" comment="Collektions Sortieren">
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartTotalItemsComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/CartUsernameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/StudentListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/StudentNameComparator.java" afterDir="false" />
+    <list default="true" id="0049120e-f0ae-404e-92ee-14c75502db86" name="Changes" comment="Unterricht fertig implementiert zu Hause Comparator &amp; Comparable">
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/Recap/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/Recap/Recap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/ue/Recap/StudentSortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/ue/StudentNameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/ue/StudentNameComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,40 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StudentListDemo">
-    <configuration name="CartSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.CartSortDemo" />
-      <module name="ComperableComparator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campus02.ue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.EmployeeSortDemo" />
-      <module name="ComperableComparator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campus02.ue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.StudentSortDemo">
     <configuration name="HighscoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campus02.ue.HighscoreDemo" />
       <module name="ComperableComparator" />
@@ -98,6 +69,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.Recap.Recap" />
+      <module name="ComperableComparator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.ue.Recap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campus02.ue.StudentListDemo" />
       <module name="ComperableComparator" />
@@ -111,13 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.ue.Recap.StudentSortDemo" />
+      <module name="ComperableComparator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.ue.Recap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentSortDemo" />
+        <item itemvalue="Application.Recap" />
         <item itemvalue="Application.StudentListDemo" />
         <item itemvalue="Application.ListSortDemo" />
         <item itemvalue="Application.HighscoreDemo" />
-        <item itemvalue="Application.EmployeeSortDemo" />
-        <item itemvalue="Application.CartSortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -137,11 +134,19 @@
       <option name="project" value="LOCAL" />
       <updated>1677872299906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Unterricht fertig implementiert zu Hause Comparator &amp; Comparable">
+      <created>1677887221202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677887221202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Collektions Sortieren" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collektions Sortieren" />
+    <MESSAGE value="Unterricht fertig implementiert zu Hause Comparator &amp; Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unterricht fertig implementiert zu Hause Comparator &amp; Comparable" />
   </component>
 </project>
